@@ -1,3 +1,7 @@
+// use in terminal: 
+// dotnet run .\mathOperations.cs
+// to see the output of the program
+// or in Visual Studio, click on the "Run" button or press F5 to run the program and see the output in the console window.
 // System.Console.WriteLine("Hello, World!");
 
 int firstNumber = 12; // declaring and initializing an integer variable
