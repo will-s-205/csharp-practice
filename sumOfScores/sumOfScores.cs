@@ -51,10 +51,12 @@ public class Program
         Console.WriteLine("Jeong: " + jeongScore + " A");
 
         // format output as aligned columns of text 
-        Console.WriteLine("Student\tGrade\n");
-        Console.WriteLine("Sophia:\t" + sophiaScore + "\tA");
+        // \n - new line
+        // \t - insert a tab between the text items
+        Console.WriteLine("Student\t\tGrade\n");
+        Console.WriteLine("Sophia:\t\t" + sophiaScore + "\tA");
         Console.WriteLine("Nicolas:\t" + nicolasScore + "\tB");
         Console.WriteLine("Zahirah:\t" + zahirahScore + "\tB");
-        Console.WriteLine("Jeong:\t" + jeongScore + "\tA");
+        Console.WriteLine("Jeong:\t\t" + jeongScore + "\tA");
     }
 }
