@@ -44,10 +44,10 @@ public class Program
         decimal zahirahScore = zahirahSum / currentAssignments;
         decimal jeongScore = jeongSum / currentAssignments;
 
-        Console.WriteLine("Sophia: " + sophiaSum);
-        Console.WriteLine("Nicolas: " + nicolasSum);
-        Console.WriteLine("Zahirah: " + zahirahSum);
-        Console.WriteLine("Jeong: " + jeongSum);
-
+        // console output to show avarege score of students
+        Console.WriteLine("Sophia: " + sophiaScore);
+        Console.WriteLine("Nicolas: " + nicolasScore);
+        Console.WriteLine("Zahirah: " + zahirahScore);
+        Console.WriteLine("Jeong: " + jeongScore);
     }
 }
