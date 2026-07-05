@@ -49,5 +49,12 @@ public class Program
         Console.WriteLine("Nicolas: " + nicolasScore + " B");
         Console.WriteLine("Zahirah: " + zahirahScore + " B");
         Console.WriteLine("Jeong: " + jeongScore + " A");
+
+        // format output as aligned columns of text 
+        Console.WriteLine("Student\tGrade\n");
+        Console.WriteLine("Sophia:\t" + sophiaScore + "\tA");
+        Console.WriteLine("Nicolas:\t" + nicolasScore + "\tB");
+        Console.WriteLine("Zahirah:\t" + zahirahScore + "\tB");
+        Console.WriteLine("Jeong:\t" + jeongScore + "\tA");
     }
 }
