@@ -39,10 +39,10 @@ public class Program
         int jeongSum = jeong1 + jeong2 + jeong3 + jeong4 + jeong5;
 
         // divide the sum of assignment scores by the total number of assignments
-        decimal sophiaScore = sophiaSum / currentAssignments;
-        decimal nicolasScore = nicolasSum / currentAssignments;
-        decimal zahirahScore = zahirahSum / currentAssignments;
-        decimal jeongScore = jeongSum / currentAssignments;
+        decimal sophiaScore = sophiaSum / (decimal)currentAssignments;
+        decimal nicolasScore = nicolasSum / (decimal)currentAssignments;
+        decimal zahirahScore = zahirahSum / (decimal)currentAssignments;
+        decimal jeongScore = jeongSum / (decimal)currentAssignments;
 
         // console output to show avarege score of students
         Console.WriteLine("Sophia: " + sophiaScore);
