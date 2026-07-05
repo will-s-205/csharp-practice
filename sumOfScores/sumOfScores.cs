@@ -45,9 +45,9 @@ public class Program
         decimal jeongScore = jeongSum / (decimal)currentAssignments;
 
         // console output to show avarege score of students
-        Console.WriteLine("Sophia: " + sophiaScore);
-        Console.WriteLine("Nicolas: " + nicolasScore);
-        Console.WriteLine("Zahirah: " + zahirahScore);
-        Console.WriteLine("Jeong: " + jeongScore);
+        Console.WriteLine("Sophia: " + sophiaScore + " A");
+        Console.WriteLine("Nicolas: " + nicolasScore + " B");
+        Console.WriteLine("Zahirah: " + zahirahScore + " B");
+        Console.WriteLine("Jeong: " + jeongScore + " A");
     }
 }
