@@ -31,6 +31,15 @@ public class Program
         int jeong4 = 100;
         int jeong5 = 97;
 
-        Console.WriteLine("sumOfSco");
+        int sophiaSum = 0;
+        int nicolasSum = 0;
+        int zahirahSum = 0;
+        int jeongSum = 0;
+
+        Console.WriteLine("Sophia: " + sophiaSum);
+        Console.WriteLine("Nicolas: " + nicolasSum);
+        Console.WriteLine("Zahirah: " + zahirahSum);
+        Console.WriteLine("Jeong: " + jeongSum);
+
     }
 }
