@@ -38,11 +38,11 @@ public class Program
         int zahirahSum = zahirah1 + zahirah2 + zahirah3 + zahirah4 + zahirah5;
         int jeongSum = jeong1 + jeong2 + jeong3 + jeong4 + jeong5;
 
-        // declaring the decimal but not initializing them
-        decimal sophiaScore;
-        decimal nicolasScore;
-        decimal zahirahScore;
-        decimal jeongScore;
+        // divide the sum of assignment scores by the total number of assignments
+        decimal sophiaScore = sophiaSum / currentAssignments;
+        decimal nicolasScore = nicolasSum / currentAssignments;
+        decimal zahirahScore = zahirahSum / currentAssignments;
+        decimal jeongScore = jeongSum / currentAssignments;
 
         Console.WriteLine("Sophia: " + sophiaSum);
         Console.WriteLine("Nicolas: " + nicolasSum);
