@@ -10,7 +10,7 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/CSharpPractice/bin/Debug/net11.0/CSharpPractice.dll",
+            "program": "${workspaceFolder}/CSharpPractice/bin/Debug/net8.0/CSharpPractice.dll",
             "args": [],
             "cwd": "${workspaceFolder}/CSharpPractice",
             "stopAtEntry": false,
